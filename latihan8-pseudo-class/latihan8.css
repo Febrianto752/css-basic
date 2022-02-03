@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+}
+
+.code-anchor::after {
+  content: '<a></a>';
+}
+
+.link {
+  margin-bottom: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+/*== Mengatur style default pada elemen link (sebelum link di klik) ==*/
+.link1:link {
+  color: black;
+}
+
+
+
+/*== Mengatur style elemen ketika kursor mouse berada berada diatas sebuah link/elemen ==*/
+.link2:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+
+
+/*== Mengatur style ketika sebuah link di klik(keadaan aktif) ==*/
+.link3:active {
+  color: rgb(0, 0, 139);
+  /* text-decoration: underline; */
+}
+
+
+
+/*== Mengatur style ketika link sudah pernah dikunjungi sebelumnya (menggunakan browser yang sama) ==*/
+.link4:visited {
+  color: rgb(255, 0, 0);
+}
+
+
+
+/*== Mengatur style pada child elemen pertama ==*/
+.ul-1 li:first-child {
+  color: red;
+}
+
+
+
+/*== Mengatur style pada child elemen terakhir ==*/
+.ul-1 li:last-child {
+  color: green;
+}
+
+
+
+/*== Mengatur style pada child elemen ke n ==*/
+/* :nth-child(n/even/odd/rumus(n dimulai dari 0)) */
+.ul-2 li:nth-child(2n-3) {
+  color: blue;
+}

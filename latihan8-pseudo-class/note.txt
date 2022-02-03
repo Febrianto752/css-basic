@@ -1,0 +1,8 @@
+Pseudo = semu
+Pseudu class digunakan untuk mendefinisikan keadaan khusus suatu elemen.
+
+Misalnya, dapat digunakan untuk:
+  - Style elemen saat pengguna mengarahkan mouse ke atasnya
+  - Style tautan yang dikunjungi dan yang belum dikunjungi secara berbeda
+  - Style elemen saat mendapat fokus
+

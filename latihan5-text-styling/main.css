@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+}
+
+
+/*== Merubah warna text ==*/
+/* color: namaWarna/rgb/hsl/rgba/hsla/hexa;  */
+.p1 {
+  color: #970000;
+}
+
+
+
+/*== Mengatur perataan text ==*/
+/* text-align: left/center/right/justify;  */
+.p2 {
+  text-align: center;
+}
+
+
+
+/*== Mengatur indentasi text/paragraf ==*/
+/* text-indent: px/%/em; */
+.p3 {
+  text-indent: 30px;
+}
+
+
+
+/*== Mengatur underline pada text ==*/
+/* text-decoration: underline/none/overline/line-through; */
+.p4 {
+  text-decoration: underline;
+}
+
+
+
+/*== Mengatur huruf besar atau kecil suatu text ==*/
+/* text-transform: uppercase/lowercase/capitalize/normal; */
+.p5 {
+  text-transform: uppercase;
+}
+
+
+
+/*== Mengatur jarak antar huruf ==*/
+/* letter-spacing: normal/px/em/dll;  */
+.p6 {
+  letter-spacing: 8px;
+}
+
+
+
+/*== Mengatur jarak antar kata ==*/
+/* word-spacing: normal/px/em/dll;  */
+.p7 {
+  word-spacing: 1em;
+}

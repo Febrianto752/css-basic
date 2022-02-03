@@ -1,0 +1,56 @@
+/* cara baca : css carikan tag semua <h1>, lalu ubah warna teksnya menjadi hijau */
+/* h1 {
+  color: green;
+} */
+
+/* cara baca : css carikan tag semua <h2>, lalu ubah warna teksnya menjadi hijau */
+/* h2 {
+  color: green;
+} */
+
+/* cara baca : css carikan semua tag <h1> dan <h2>, lalu ubah warna teksnya menjadi hijau */
+h1,
+h2 {
+  color: green;
+}
+
+/* cara baca : css carikan semua tag <li> yang ada di dalam tag <ul>, lalu ubah warna teksnya menjadi oren  */
+ul li {
+  color: orange;
+}
+
+/* cara baca : css carikan semua tag <a> yang ada di dalam <li> yang tag <li> tersebut ada di dalam tag <ul>, lalu ubah warna teksnya menjadi coklat  */
+ul li a {
+  color: brown;
+}
+
+/* cara baca : css carikan semua tag <p>, lalu ubah warna teksnya menjadi merah */
+/* p {
+  color: red;
+} */
+
+/* Selector ID (#)*/
+/* cara baca : css carikan semua tag dengan attribute id='p1', lalu ubah warna teksnya menjadi merah  */
+#p1 {
+  color: skyblue;
+}
+
+
+/* Selector Class (.)*/
+/* cara baca : css carikan semua tag dengan attribute class='p2', lalu ubah warna teksnya menjadi merah dan ukuran hurufnya menjadi 20px */
+.p2 {
+  color: red;
+  font-size: 20px;
+}
+
+/* cara baca : css carikan semua tag dengan attribute class='cetak-tebal', lalu ubah ketebalan hurufnya menjadi bold */
+.cetak-tebal {
+  font-weight: bold;
+}
+
+
+/* selector universal (*) */
+/* cara baca : css carikan semua tag kemudian ubah warnanya menjadi merah */
+/* * {
+  color: red;
+} */

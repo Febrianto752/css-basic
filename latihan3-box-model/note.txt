@@ -1,0 +1,17 @@
+# Box Model
+  ! Setiap element di halaman website berada di dalam sebuah box(kotak).
+  ! Kita bisa mengatur ukuran dan posisi kotak tersebut.
+  ! Kita bisa memberi warna / gambar sebagai background kotak tersebut.
+
+# margin
+  ! Margin bisa bernilai negatif (-).
+  ! Overlapping untuk vertikal tidak untuk horizontal.
+  ! Margin akan mengubah ukuran dari box.
+
+# Padding 
+  ! Padding tidak bisa bernilai negatif (-).
+  ! Padding akan mengubah ukuran dari box.
+
+# Border 
+  ! Border akan mengubah ukuran dari box.
+

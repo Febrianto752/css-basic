@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+}
+
+/* Yang Terakhir menang */
+.p1 {
+  color: red;
+}
+
+.p1 {
+  color: green;
+}
+
+
+
+/* Pertama Atau Terakhir Tidak Masalah Jika Propertynya Berbeda */
+.p2 {
+  background-color: black;
+}
+
+.p2 {
+  color: white;
+}
+
+
+
+/* Nilai Spesificity Yang Lebih Tinggi Lah Yang Menang */
+/* bobot spesificity : 1 */
+p {
+  color: purple;
+}
+
+/* bobot spesificity : 2 */
+li p {
+  color: gray;
+}
+
+/* bobot spesificity : 3 */
+ul li p {
+  color: green;
+}
+
+/* bobot spesificity : 10 */
+.p3 {
+  color: brown;
+}
+
+/* bobot spesificity : 100 */
+#p3 {
+  color: gold;
+}
+
+/* bobot spesificity : 1002 */
+li p {
+  color: orange !important;
+}

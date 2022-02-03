@@ -1,0 +1,3 @@
+# Background 
+  ! secara default kebanyakan elemen memiliki background berwarna transparant
+

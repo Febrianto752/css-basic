@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+}
+
+/*== Mengatur warna background elemen ==*/
+/* background-color: namaWarna/rgb/hsl/rgba/hsla/hexa; */
+.box1 {
+  height: 300px;
+  background-color: red;
+}
+
+
+
+/*== Mengatur gambar background elemen ==*/
+/* background-image: url('urlTempatGambarBerada.extension'); */
+.box2 {
+  height: 300px;
+  background-image: url('images/gedung-juang.jpg');
+}
+
+
+
+/*== Mengatur perulangan gambar background ==*/
+/* background-repeat: no-repeat, repeat-x, repeat-y */
+.box3 {
+  height: 300px;
+  background-image: url('images/gedung-juang.jpg');
+  background-repeat: no-repeat;
+}
+
+
+/*== Mengatur letak gambar background ==*/
+/* background-position: sumbuX sumbuY/sumbuX/center; */
+.box4 {
+  height: 300px;
+  background-image: url('images/gedung-juang.jpg');
+  background-repeat: no-repeat;
+  background-position: 40px 40px;
+}
+
+
+
+/*== Mengatur ukuran gambar background ==*/
+/* background-size: cover/containt/width height; */
+.box5 {
+  height: 300px;
+  background-image: url('images/gedung-juang.jpg');
+  background-size: cover;
+  background-position: center;
+}

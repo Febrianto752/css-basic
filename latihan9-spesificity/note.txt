@@ -1,0 +1,10 @@
+Spesifisity : Jika ada dua atau lebih aturan CSS yang mengarah ke elemen yang sama, selector dengan nilai spesifisitas tertinggi akan "menang", dan deklarasi gayanya akan diterapkan ke elemen HTML tersebut.
+
+Ada empat kategori yang menentukan level spesifisitas selector:
+  Inline Styles                               - 1000
+  ID selectors                                -  100
+  Classes, Attributes and Pseudo-classes      -   10
+  Elements and Pseudo-elements                -    1 
+
+
+! link belajar spesificity : https://www.w3schools.com/css/css_specificity.asp

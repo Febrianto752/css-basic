@@ -1,0 +1,97 @@
+/* cara baca : css buat semua tag di dalam tag <body> mempunyai border dengan tabal 1px, tipe solid, dan berwarna hitam */
+/* * {
+  border: 1px solid black;
+} */
+
+h1 {
+  text-align: center;
+}
+
+/*== Margin, Padding, Border, dan Content ==*/
+.box1 {
+  /* margin  */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20%;
+  /* 20% dari lebar parent*/
+  /* shortcut => margin: top right bottom left;  */
+
+  /* padding  */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 200px;
+  padding-left: 20px;
+  /* shortcut => padding: top right bottom left;  */
+
+  /* border  */
+  border-width: 4px;
+  border-style: solid;
+  border-color: red;
+  /* shortcut => border: width style color;  */
+}
+
+/* contoh overlapping */
+.overlapping .contoh1 {
+  margin-bottom: 30px;
+  border: 1px solid blue;
+}
+
+.overlapping .contoh2 {
+  margin-top: 100px;
+  border: 1px solid brown;
+}
+
+
+
+
+/*== width & height ==*/
+.box2 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+
+
+/*== overflow ==*/
+.box3 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  overflow: hidden;
+  /* value overflow : hidden/auto/scroll/visible; */
+}
+
+.overflow-x {
+  width: 400px;
+  background-color: yellow;
+}
+
+
+
+/* == Display ==  */
+/* value display : block/inline/inline-block/flex/grid/table; */
+.box4 p {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.box4 span,
+.box4 a {
+  /* default display: inline  */
+  width: 100px;
+  height: 100px;
+  margin: 30px 30px 30px 30px;
+  background-color: gray;
+}
+
+/* tag <img> itu istimewa, sehingga walaupun default display=inline tetapi bisa menerapkan width, height, margin, padding  */
+.box4 img {
+  /* default display: inline  */
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 70px 30px 30px 50px;
+}

@@ -1,0 +1,1 @@
+! Jika terdapat penulisan sintaks css yang salah maka css akan mengabaikannya
